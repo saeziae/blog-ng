@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
+<html lang="<%= config.language %>">
+<%- partial('_partial/head') %>
+
+<body>
+  <%- partial('_partial/pride') %>
+  <div id="header"><%- partial('_partial/header') %></div>
+  <div id="content" class="container clearfix">
+    <div id="sidebar" class="column-1"><%- partial('_partial/sidebar', {}, {cache: true}) %></div>
+    <div id="main-col" class="column-2"><div><%- body %></div></div>
+  </div>
+  <div id="footer"><%- partial('_partial/footer') %></div>
+</body>
+</html>
