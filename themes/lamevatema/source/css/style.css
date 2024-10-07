@@ -30,9 +30,6 @@ h2 {
   width: 990px;
   margin: 0 auto;
 }
-.container tr {
-  vertical-align: top;
-}
 
 .column-1 {
   width: 260px;
@@ -176,6 +173,9 @@ h2 {
   background-color: white;
 }
 
+figure {
+  max-width: 600px;
+}
 figure.highlight {
   background-color: #1e1e1e;
   font-family: monospace;

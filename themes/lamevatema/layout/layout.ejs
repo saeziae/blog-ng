@@ -2,15 +2,18 @@
 <html lang="<%= config.language %>">
 <%- partial('_partial/head') %>
 
-<body>
-  <%- partial('_partial/pride') %>
-  <div id="header"><%- partial('_partial/header') %></div>
-  <table id="content" class="container">
-    <tr>
-      <td id="sidebar" class="column-1"><%- partial('_partial/sidebar', {}, {cache: true}) %></td>
-      <td id="main-col" class="column-2"><div><%- body %></div></td>
-    </tr>
-  </table>
-  <div id="footer"><%- partial('_partial/footer') %></div>
-</body>
+  <body>
+    <%- partial('_partial/pride') %>
+      <div id="header"><%- partial('_partial/header') %></div>
+      <table id="content" class="container">
+        <tr style="vertical-align: top;">
+          <td id="sidebar" class="column-1"><%- partial('_partial/sidebar', {}, {cache: true}) %></td>
+          <td id="main-col" class="column-2">
+            <div><%- body %></div>
+          </td>
+        </tr>
+      </table>
+      <div id="footer"><%- partial('_partial/footer') %></div>
+  </body>
+
 </html>
