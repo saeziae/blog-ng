@@ -62,7 +62,7 @@ make
 flash
 
 ```bash
-./flash /dev/sdX
+./flash.sh /dev/sdX
 ```
 
 ## Build the kernel
