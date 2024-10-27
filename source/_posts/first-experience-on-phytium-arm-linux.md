@@ -2,12 +2,11 @@
 title: 飞腾 ARM PC Linux 踩坑记
 lang: zh-Hans
 date: 2022-10-05 16:50:00
-tags: [linux, ARM]
-category: tech
+tags: [linux, arm]
 ---
 最近组装了一台[飞腾](https://www.phytium.com.cn/)处理器的电脑，因笔记本送修，也被动把飞腾作为主力机使用了一段时间，在使用过程中踩了不少坑，大概零零散散记录在这里。啊对了，系统是 Archlinux ARM.
 
-{% asset_img phytiun_photo.jpg %}
+![](phytium_photo.jpg)
 
 <!--more-->
 
@@ -25,7 +24,7 @@ category: tech
 
 如果想直接用打好的包，可以用[山前源](https://repo.saezi.ae/readme.html)，指定安装 `saeziae/librime` 后再安装 `fcitx5-rime`.
 
-{% asset_img fcitx5-rime.jpg %}
+![](fcitx5-rime.jpg)
 
 ## Minecraft
 
@@ -37,7 +36,7 @@ Minecraft 官方的起动器并没有 ARM 架构的二进制分发，我这里�
 
 从 <https://www.lwjgl.org/browse/stable/linux/arm64> 下载 `libglfw.so` `liblwjgl_opengl.so` `liblwjgl_stb.so` `liblwjgl.so` `libopenal.so` 五个文件放到 `.minecraft/natives` 里面，然后在 HMCL  的设置中找到 「本地库路径」，选择自定义，填入 `natives` 目录的路径。
 
-{% asset_img minecraft.png %}
+![](minecraft.png)
 
 ## Discord
 
