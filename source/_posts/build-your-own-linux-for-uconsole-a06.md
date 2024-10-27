@@ -76,7 +76,7 @@ git clone https://github.com/saeziae/linux-clockworkpi-a06u.git
 cd linux-clockworkpi-a06u
 ```
 
-We use some tricks to build it on x86-64 PC (or you can use qemu-user to chroot into an aarch64 rootfs and do the command above, with pain):
+We use some tricks to build it on x86-64 PC (or you can use qemu-user to chroot into an aarch64 rootfs and makepkg natively, with pain):
 
 ```bash
 sudo pacman -S aarch64-linux-gnu-gcc aarch64-linux-gnu-binutils aarch64-linux-gnu-glibc aarch64-linux-gnu-linux-api-headers
