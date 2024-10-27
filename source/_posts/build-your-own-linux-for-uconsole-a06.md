@@ -7,7 +7,7 @@ tags: [linux, arm]
 
 TL;DR If you’re still considering buying a uConsole, just purchase the CM4 version, save your life!
 
-ClockworkPi uConsole is a handy PC. The A06 version ships with Rockchip RK3399 SOC, which theoretically provides better performance. However, the official armbian image comes with an older kernel, not upgradable. The official build was based on an older armbian version which I had not built successfully, or course, the current armbian doesn’t work. Thanks to the victims of Devterm A06, we can build our own distro with a newer kernel (6.1 LTS).
+ClockworkPi uConsole is a handy PC. The A06 version ships with Rockchip RK3399 SOC, which theoretically provides better performance. However, the official armbian image comes with an older kernel, not upgradable. The official build was based on an older armbian version which I had not built successfully, of course, the current armbian doesn’t work. Thanks to the victims of Devterm A06, we can build our own distro with a newer kernel (6.1 LTS).
 
 ![](photo.jpg)
 
