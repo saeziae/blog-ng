@@ -109,6 +109,7 @@ deploy:
 feed:
   # Generate both atom and rss2 feeds
   content: false
+  autodiscovery : false
   type:
     - atom
     - rss2

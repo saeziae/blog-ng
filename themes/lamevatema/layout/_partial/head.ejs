@@ -33,12 +33,8 @@
   <% } else { %>
     <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
-
+    <link rel="alternate" href="/atom.xml" title="Blog of Estela (atom)" type="application/atom+xml">
+    <link rel="alternate" href="/rss2.xml" title="Blog of Estela (rss2)" type="application/rss+xml">
   <%- favicon_tag('favicon.png') %>
-  <% if (config.feed) { %>
-    <%- feed_tag() %>
-  <% } else if (theme.rss) { %>
-    <%- feed_tag(theme.rss) %>
-  <% } %>
   <%- css('css/style.css') %>
 </head>
