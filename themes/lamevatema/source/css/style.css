@@ -177,14 +177,14 @@ figure {
   max-width: 600px;
 }
 figure.highlight {
-  background-color: #1e1e1e;
+  background-color: #24273a;
   font-family: monospace;
-  color: #ffffff;
+  color: #cad3f5;
   overflow: auto;
 }
 
 .gutter {
-  color: #5c6370;
+  color: #6e738d;
   text-align: right;
   padding-right: 10px;
   width: 30px;
@@ -196,6 +196,7 @@ pre {
 }
 .code {
   display: inline;
+  color: #cad3f5;
 }
 
 .line {
@@ -204,23 +205,23 @@ pre {
 }
 
 .command {
-  color: #61afef;
+  color: #b7bdf8;
 }
 
 .string {
-  color: #98c379;
+  color: #a6da95;
 }
 
 .variable {
-  color: #d19a66;
+  color: #f5a97f;
 }
 
 .error {
-  color: #e06c75;
+  color: #ed8796;
 }
 
 .comment {
-  color: #7f848e;
+  color: #6e738d;
   font-style: italic;
 }
 
