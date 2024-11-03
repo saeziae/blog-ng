@@ -9,15 +9,15 @@ TL;DR If you’re still considering buying a uConsole, just purchase the CM4 ver
 
 ClockworkPi uConsole is a handy PC. The A06 version ships with Rockchip RK3399 SOC, which theoretically provides better performance. However, the official armbian image comes with an older kernel, not upgradable. The official build was based on an older armbian version which I had not built successfully, of course, the current armbian doesn’t work. Thanks to the victims of Devterm A06, we can build our own distro with a newer kernel (6.1 LTS).
 
-![](photo.jpg)
+![uConsole A06 running Arch Linux ARM](photo.jpg)
+
+Here I take Arch Linux ARM as example, these tricks work for other distros, too.
 
 <!--more-->
 
-Here I take Arch Linux ARM as example.
-
 ## Preparing the SD card
 
-Here are the important tricks to make thve SD card bootable.
+Here are the important tricks to make the SD card bootable.
 
 Replace sdX in the following instructions with the device name for the SD card as it appears on your computer.
 
@@ -67,7 +67,7 @@ flash
 
 ## Build the kernel
 
-I have prepared patched for the Linux kernel, it is a bit different from the Devterm A06 one.
+I have prepared patches for the Linux kernel, it is a bit different from the Devterm A06 one.
 
 <https://github.com/saeziae/linux-clockworkpi-a06u>
 
@@ -116,14 +116,15 @@ sudo su #switch to root user
 bsdtar -xpf ArchLinuxARM-aarch64-latest.tar.gz -C /mnt
 ```
 
-Copy your previous `.pkg.tar.zst` files to `/mnt/root`,
+Copy your previous `.pkg.tar.zst` files (like `linux-clockworkpi-a06u-6.1.111-1-aarch64.pkg.tar.zst` and `networking-clockworkpi-a06-1.0-1-any.pkg.tar.zst`) to `/mnt/root`,
 
 Chroot to the rootfs, `qemu-user-static-aarch64` is required:
 
 ```bash
 arch-chroot /mnt
+cd
 pacman -R linux-aarch64 # remove original kernel
-pacman -U linux-clockworkpi-a06u-6.1.111-1-aarch64.pkg.tar.zst networking-clockworkpi-a06-1.0-1-any.pkg.tar.zst
+pacman -U *.pkg.tar.zst
 ```
 
 Initialise pacman:
@@ -133,7 +134,7 @@ pacman-key --init
 pacman-key --populate archlinuxarm
 ```
 
-It is also recommended to install you favourite network tools like nmcli now, or you will have trouble connecting to Wi-Fi on your first boot.
+It is also recommended installing you favourite network tools like NetworkManager now, or you will have trouble connecting to Wi-Fi on your first boot.
 
 Write the bootargs:
 
@@ -151,7 +152,7 @@ MEOW
 
 Exit the chroot
 
-```
+```bash
 exit # exit chroot
 exit # exit root user
 sync
