@@ -1,6 +1,7 @@
 ---
 title: '碎碎唸：最近所見的系統美化'
 date: 2024-11-14 21:20:39
+updated: 2025-04-11 13:26:00
 tags: linux
 lang: zh-Hant
 ---
@@ -24,3 +25,7 @@ lang: zh-Hant
 <https://github.com/soulhotel/FF-ULTIMA>
 
 ![](20241114_213236.png)
+
+# KDE Aurorae
+
+<https://github.com/paulmcauley/klassy>
