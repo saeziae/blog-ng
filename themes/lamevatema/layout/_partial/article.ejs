@@ -1,15 +1,16 @@
-<article id="<%= item.layout %>-<%= item.slug %>" class="h-entry <%= item.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting" lang="<%= item.lang || config.language %>">
+<div id="<%= item.layout %>-<%= item.slug %>" class="article h-entry <%= item.layout %>" lang="<%= item.lang || config.language %>">
   <% if (item.photos && item.photos.length){ %>
     <%- partial('post/gallery') %>
   <% } %>
   <div class="post-content">
-    <header>
       <%- partial('post/title') %>
       <% if (item.layout != 'page'){ %>
-        Published: <time class="dt-published" datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- url_for(item.path) %>"><%= item.date.format(config.date_format) %></a></time>
-      <% } %>
-    </header>
-    <div class="e-content entry" itemprop="articleBody">
+        Published: <span class="time dt-published"><%= item.date.format(config.date_format) %></span>
+        <% if (item.updated){ %>
+        <br/>Updated: <span class="time dt-updated"><%= item.updated.format(config.date_format) %></span>
+      <% }} %>
+    </div>
+    <div class="e-content entry">
       <% if (item.excerpt && index){ %>
         <%- item.excerpt %>
         <p><a href="<%- url_for(item.path) %>">[Read more]</a></p>
@@ -17,5 +18,4 @@
         <%- item.content %>
       <% } %>
     </div>
-  </div>
-</article>
+</div>

@@ -1,11 +1,5 @@
-menu:
-  Home:
-  Archives: archives
-
 widgets:
 - menu
-- search
-- category
 - tag
 - archive
 - footer

@@ -1,4 +1,4 @@
-<nav id="pagination">
+<div class="nav" id="pagination">
   <% if (page.prev){ %>
     <a href="<%- url_for(page.prev_link) %>" class="alignleft prev"><%= __('prev') %></a>
   <% } %>
@@ -6,4 +6,4 @@
     <a href="<%- url_for(page.next_link) %>" class="alignright next"><%= __('next') %></a>
   <% } %>
   <div class="clearfix"></div>
-</nav>
+</div>

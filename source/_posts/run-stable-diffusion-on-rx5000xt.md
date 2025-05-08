@@ -3,6 +3,7 @@ title: 在 RX 5500XT 上运行 Stable Diffusion
 lang: zh-Hans
 date: 2023-03-05 15:28:45
 tags: [linux, ai]
+cover: stable-diffusion.png
 ---
 
 当今的计算机技术和人工智能应用正以惊人的速度发展着。近年来，越来越多的人开始尝试使用 GPU 和 AI 进行创作，其中最受欢迎的之一就是 Stable Diffusion. 如果你正在试图自建 Stable Diffusion，并恰巧（很不幸地）拥有一张 RX 5000 系列的 AMD 显卡，那么你一定不能错过这篇文章，因为今天我将手把手介绍如何在 RX 5500XT 显卡上运行 Stable Diffusion，并且为你展示如何使用这种技术来创造出惊人的艺术作品。
@@ -106,4 +107,4 @@ docker.io/rocm/pytorch:latest-base \
 
 `watch -n 0.1 /opt/rocm/bin/rocm-smi` 可以查看显卡负载等信息。
 
-![](stable-diffusion.png)
+![a screenshot of stable diffusion running](stable-diffusion.png)

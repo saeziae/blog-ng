@@ -5,15 +5,14 @@
 # Site
 title: Blog of Estela
 subtitle: 'hoc iter ad astra'
-description: ''
-keywords:
+description: 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA'
 author: Estela ad Astra
 language: en
 timezone: 'UTC'
-
+cover: https://estela.moe/images/logotext.png
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://blog.estela.moe
+url: https://blog.estela.moe/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -92,9 +91,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+#include:
+#exclude:
+#ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

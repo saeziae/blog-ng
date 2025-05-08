@@ -1,7 +1,7 @@
 ---
 title: Linux用Lutris運行紅色警戒2（CnCNet/心靈終結）
 lang: zh-Hant
-date: 2024-03- 19:20:01
+date: 2024-03-01T19:20:01
 tags: [linux, gaming]
 ---
 

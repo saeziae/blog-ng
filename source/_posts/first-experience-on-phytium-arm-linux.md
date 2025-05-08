@@ -3,6 +3,7 @@ title: 飞腾 ARM PC Linux 踩坑记
 lang: zh-Hans
 date: 2022-10-05 16:50:00
 tags: [linux, arm]
+cover: phytium_photo.jpg
 ---
 
 最近组装了一台[飞腾](https://www.phytium.com.cn/)处理器的电脑，因笔记本送修，也被动把飞腾作为主力机使用了一段时间，在使用过程中踩了不少坑，大概零零散散记录在这里。啊对了，系统是 Arch Linux ARM.

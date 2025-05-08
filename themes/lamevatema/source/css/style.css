@@ -38,7 +38,7 @@ h2 {
   width: 720px;
 }
 
-.column-2 article,
+.column-2 .article,
 .column-2 .archive-title {
   padding: 5px;
   box-sizing: border-box;

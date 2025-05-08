@@ -3,6 +3,7 @@ title: Build your own Linux for uConsole A06
 lang: en
 date: 2024-10-27 06:26:24
 tags: [linux, arm]
+cover: photo.jpg
 ---
 
 TL;DR If you’re still considering buying a uConsole, just purchase the CM4 version, save your life!
