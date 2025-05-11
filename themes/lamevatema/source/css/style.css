@@ -34,6 +34,11 @@ h2 {
 .column-1 {
   width: 260px;
 }
+
+.column-1 img {
+  image-rendering: pixelated;
+}
+
 .column-2 {
   width: 720px;
 }
