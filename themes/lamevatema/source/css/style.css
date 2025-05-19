@@ -179,7 +179,8 @@ h2 {
 }
 
 figure {
-  max-width: 600px;
+  margin: 0;
+  max-width: 700px;
 }
 figure.highlight {
   background-color: #24273a;
@@ -200,12 +201,12 @@ pre {
   margin: 0;
 }
 .code {
-  display: inline;
+  display: block;
   color: #cad3f5;
 }
 
 .line {
-  display: block;
+  display: inline-block;
   padding: 2px 0;
 }
 

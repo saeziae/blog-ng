@@ -80,7 +80,7 @@ meta_generator: true
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+time_format: HH:mm
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'empty'
 
@@ -107,7 +107,7 @@ deploy:
 
 feed:
   # Generate both atom and rss2 feeds
-  content: false
+  content: true
   autodiscovery : false
   type:
     - atom
