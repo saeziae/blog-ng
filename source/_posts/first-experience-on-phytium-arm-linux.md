@@ -1,7 +1,7 @@
 ---
 title: 飞腾 ARM PC Linux 踩坑记
 lang: zh-Hans
-date: 2022-10-05 16:50:00
+date: 2022-10-05T16:50:00+8:00
 tags: [linux, arm]
 cover: phytium_photo.jpg
 ---

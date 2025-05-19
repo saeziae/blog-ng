@@ -1,7 +1,7 @@
 ---
 title: 在 RX 5500XT 上运行 Stable Diffusion
 lang: zh-Hans
-date: 2023-03-05 15:28:45
+date: 2023-03-05T15:28:45+8:00
 tags: [linux, ai]
 cover: stable-diffusion.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: '碎碎唸：最近所見的系統美化'
-date: 2024-11-14 21:20:39
-updated: 2025-04-11 13:26:00
+date: 2024-11-14T21:20:39+2:00
+updated: 2025-04-11T13:26:00+2:00
 tags: linux
 lang: zh-Hant
 cover: March7th-TheHunt.png

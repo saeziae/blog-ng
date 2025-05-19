@@ -1,6 +1,6 @@
 ---
 title: firefox can't copy and paste
-date: 2025-03-24 19:08:50
+date: 2025-03-24T19:08:50+2:00
 tags: linux
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 title: Build your own Linux for uConsole A06
 lang: en
-date: 2024-10-27 06:26:24
+date: 2024-10-27T06:26:24+2:00
 tags: [linux, arm]
 cover: photo.jpg
 ---

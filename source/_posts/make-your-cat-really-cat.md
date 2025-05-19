@@ -1,6 +1,7 @@
 ---
 title: make your cat really cat
-date: 2025-05-19T03:00+2:00
+lang: en
+date: 2025-05-19T03:00:00+2:00
 tags: [linux]
 ---
 
