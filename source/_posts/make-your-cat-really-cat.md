@@ -2,6 +2,7 @@
 title: make your cat really cat
 lang: en
 date: 2025-05-19T03:00:00+2:00
+updated: 2025-05-29T19:45:00+2:00
 tags: [linux]
 ---
 
@@ -22,5 +23,5 @@ wrap cat command in the shell rc:
 
 ```bash
 # .bashrc / .zshrc                         
-alias cat='printf "\a";cat'
+alias cat='printf "\a">/dev/tty;cat'
 ```
