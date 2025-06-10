@@ -1,38 +1,57 @@
 body {
-  width: 990px;
+  width: 994px;
   margin: 10px auto;
   font-family: sans-serif;
   background-color: wheat;
 }
 
-.title {
-  margin-bottom: 0;
-}
-
-.head-title {
-  color: #884499;
-  font-style: italic;
+#header h2 {
+  margin-top: 0;
 }
 
 h1,
 h2 {
-  color: #884499;
+  color: white;
+  background-color: #849;
+  width: fit-content;
+  padding: 5px;
+}
+
+h1 a,
+h1 a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #849;
+}
+
+a:hover {
+  background-color: #849;
+  color: white;
 }
 
 .widget {
   padding: 10px;
   box-sizing: border-box;
-  border: 2px solid #884499;
+  border: 2px solid #849;
   margin-bottom: 10px;
 }
 
 .container {
-  width: 990px;
+  width: 994px;
   margin: 0 auto;
 }
 
 .column-1 {
-  width: 260px;
+  width: 264px;
+}
+
+.column-1 .badges {
+  line-height: 0;
 }
 
 .column-1 img {
@@ -47,7 +66,7 @@ h2 {
 .column-2 .archive-title {
   padding: 5px;
   box-sizing: border-box;
-  border: 2px solid #884499;
+  border: 2px solid #849;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -71,6 +90,7 @@ h2 {
 .alignleft {
   text-align: left;
 }
+
 .alignright {
   text-align: right;
 }
@@ -79,6 +99,7 @@ h2 {
 .stripe {
   position: absolute;
 }
+
 .purple {
   top: 0;
   left: 0;
@@ -146,6 +167,7 @@ h2 {
   height: 75px;
   background-color: black;
 }
+
 .brown {
   top: 0;
   left: 90px;
@@ -182,6 +204,7 @@ figure {
   margin: 0;
   max-width: 700px;
 }
+
 figure.highlight {
   background-color: #24273a;
   font-family: monospace;
@@ -200,6 +223,7 @@ figure.highlight {
 pre {
   margin: 0;
 }
+
 .code {
   display: block;
   color: #cad3f5;
@@ -231,18 +255,10 @@ pre {
   font-style: italic;
 }
 
-span.archive-list-count::before {
-  content: "(";
-}
-span.archive-list-count::after {
-  content: ")";
-}
-
 img {
   max-width: 100%;
-  max-height: 400px;
 }
 
 .index img {
-  max-height:200px;
+  max-height: 200px;
 }
